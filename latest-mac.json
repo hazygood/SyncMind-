@@ -1,0 +1,13 @@
+{
+  "version": "1.5.3",
+  "notes": "1. 大纲支持渲染标题中的行内 Markdown 与数学公式\n2. 即时预览缩进与阅读模式对齐（标题/引用顶格、行首半角空格不占缩进、行首公式对齐）\n3. 适配 macOS 独立更新通道（latest-mac.json + mac/）与 app.asar 自动热更新",
+  "asar": {
+    "url": "https://raw.githubusercontent.com/hazygood/SyncMind/main/mac/app-1.5.3.asar",
+    "sha512": "c5b4756297392a9ebf1602d4f895c03361823723d1e5487e863ea8085b846b33060097546ae1d21c2617582e1e72bf266b6a9f2add2837f7fc49f9e539ae6da6",
+    "size": 2445030,
+    "electron": "45.3.3",
+    "platforms": [
+      "darwin"
+    ]
+  }
+}
